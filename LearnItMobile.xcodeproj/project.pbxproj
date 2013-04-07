@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82282D2F171133350029CE2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82282D2E171133350029CE2A /* UIKit.framework */; };
+		82282D31171133350029CE2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82282D30171133350029CE2A /* Foundation.framework */; };
+		82282D33171133350029CE2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82282D32171133350029CE2A /* CoreGraphics.framework */; };
+		82282D39171133350029CE2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82282D37171133350029CE2A /* InfoPlist.strings */; };
+		82282D3B171133350029CE2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82282D3A171133350029CE2A /* main.m */; };
+		82282D3F171133350029CE2A /* LIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82282D3E171133350029CE2A /* LIAppDelegate.m */; };
+		82282D48171133350029CE2A /* LIMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82282D47171133350029CE2A /* LIMasterViewController.m */; };
+		82282D4B171133350029CE2A /* LIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82282D4A171133350029CE2A /* LIDetailViewController.m */; };
+		82282D4E171133350029CE2A /* LIMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82282D4C171133350029CE2A /* LIMasterViewController.xib */; };
+		82282D51171133350029CE2A /* LIDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82282D4F171133350029CE2A /* LIDetailViewController.xib */; };
+		82282D5B171135670029CE2A /* MYIntroductionPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82282D58171135670029CE2A /* MYIntroductionPanel.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		82282D5C171135670029CE2A /* MYIntroductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82282D5A171135670029CE2A /* MYIntroductionView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		82D0BA0117113CD600A6353B /* Intro-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA0017113CD600A6353B /* Intro-Icon.png */; };
+		82D0BA0317113CE500A6353B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA0217113CE500A6353B /* Icon@2x.png */; };
+		82D0BA0517113CE600A6353B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA0417113CE600A6353B /* Icon.png */; };
+		82D0BA0717113D9800A6353B /* book-glyph.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA0617113D9800A6353B /* book-glyph.png */; };
+		82D0BA141711458900A6353B /* LISprintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D0BA121711458900A6353B /* LISprintViewController.m */; };
+		82D0BA151711458900A6353B /* LISprintViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA131711458900A6353B /* LISprintViewController.xib */; };
+		82D0BA181711482B00A6353B /* doneButtonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA161711482B00A6353B /* doneButtonHighlighted.png */; };
+		82D0BA191711482B00A6353B /* doneButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA171711482B00A6353B /* doneButtonNormal.png */; };
+		82D0BA1C1711483500A6353B /* DZNumberpadDoneHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D0BA1B1711483500A6353B /* DZNumberpadDoneHelper.m */; };
+		82D0BA2317114B4400A6353B /* hai.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA2117114B4400A6353B /* hai.png */; };
+		82D0BA2417114B4400A6353B /* iie.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA2217114B4400A6353B /* iie.png */; };
+		82D0BA281711510500A6353B /* pw_maze_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA261711510500A6353B /* pw_maze_white.png */; };
+		82D0BA2C171152C400A6353B /* LIQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D0BA2A171152C400A6353B /* LIQuizViewController.m */; };
+		82D0BA2D171152C400A6353B /* LIQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA2B171152C400A6353B /* LIQuizViewController.xib */; };
+		82D0BA391711563400A6353B /* escheresque_ste.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA381711563400A6353B /* escheresque_ste.png */; };
+		82D0BA441711623E00A6353B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA431711623E00A6353B /* Default@2x.png */; };
+		82D0BA461711624000A6353B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA451711624000A6353B /* Default-568h@2x.png */; };
+		82D0BA481711624200A6353B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 82D0BA471711624200A6353B /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82282D2B171133350029CE2A /* LearnItMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnItMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82282D2E171133350029CE2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82282D30171133350029CE2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82282D32171133350029CE2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82282D36171133350029CE2A /* LearnItMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearnItMobile-Info.plist"; sourceTree = "<group>"; };
+		82282D38171133350029CE2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82282D3A171133350029CE2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82282D3C171133350029CE2A /* LearnItMobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearnItMobile-Prefix.pch"; sourceTree = "<group>"; };
+		82282D3D171133350029CE2A /* LIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIAppDelegate.h; sourceTree = "<group>"; };
+		82282D3E171133350029CE2A /* LIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIAppDelegate.m; sourceTree = "<group>"; };
+		82282D46171133350029CE2A /* LIMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIMasterViewController.h; sourceTree = "<group>"; };
+		82282D47171133350029CE2A /* LIMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIMasterViewController.m; sourceTree = "<group>"; };
+		82282D49171133350029CE2A /* LIDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIDetailViewController.h; sourceTree = "<group>"; };
+		82282D4A171133350029CE2A /* LIDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIDetailViewController.m; sourceTree = "<group>"; };
+		82282D4D171133350029CE2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LIMasterViewController.xib; sourceTree = "<group>"; };
+		82282D50171133350029CE2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LIDetailViewController.xib; sourceTree = "<group>"; };
+		82282D57171135670029CE2A /* MYIntroductionPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYIntroductionPanel.h; sourceTree = "<group>"; };
+		82282D58171135670029CE2A /* MYIntroductionPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYIntroductionPanel.m; sourceTree = "<group>"; };
+		82282D59171135670029CE2A /* MYIntroductionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYIntroductionView.h; sourceTree = "<group>"; };
+		82282D5A171135670029CE2A /* MYIntroductionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYIntroductionView.m; sourceTree = "<group>"; };
+		82D0BA0017113CD600A6353B /* Intro-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Intro-Icon.png"; sourceTree = "<group>"; };
+		82D0BA0217113CE500A6353B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		82D0BA0417113CE600A6353B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		82D0BA0617113D9800A6353B /* book-glyph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "book-glyph.png"; sourceTree = "<group>"; };
+		82D0BA111711458900A6353B /* LISprintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LISprintViewController.h; sourceTree = "<group>"; };
+		82D0BA121711458900A6353B /* LISprintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LISprintViewController.m; sourceTree = "<group>"; };
+		82D0BA131711458900A6353B /* LISprintViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LISprintViewController.xib; sourceTree = "<group>"; };
+		82D0BA161711482B00A6353B /* doneButtonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doneButtonHighlighted.png; sourceTree = "<group>"; };
+		82D0BA171711482B00A6353B /* doneButtonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doneButtonNormal.png; sourceTree = "<group>"; };
+		82D0BA1A1711483500A6353B /* DZNumberpadDoneHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZNumberpadDoneHelper.h; sourceTree = "<group>"; };
+		82D0BA1B1711483500A6353B /* DZNumberpadDoneHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZNumberpadDoneHelper.m; sourceTree = "<group>"; };
+		82D0BA2117114B4400A6353B /* hai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hai.png; sourceTree = "<group>"; };
+		82D0BA2217114B4400A6353B /* iie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iie.png; sourceTree = "<group>"; };
+		82D0BA261711510500A6353B /* pw_maze_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pw_maze_white.png; sourceTree = "<group>"; };
+		82D0BA29171152C400A6353B /* LIQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIQuizViewController.h; sourceTree = "<group>"; };
+		82D0BA2A171152C400A6353B /* LIQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIQuizViewController.m; sourceTree = "<group>"; };
+		82D0BA2B171152C400A6353B /* LIQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LIQuizViewController.xib; sourceTree = "<group>"; };
+		82D0BA381711563400A6353B /* escheresque_ste.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = escheresque_ste.png; sourceTree = "<group>"; };
+		82D0BA431711623E00A6353B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		82D0BA451711624000A6353B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		82D0BA471711624200A6353B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82282D28171133350029CE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82282D2F171133350029CE2A /* UIKit.framework in Frameworks */,
+				82282D31171133350029CE2A /* Foundation.framework in Frameworks */,
+				82282D33171133350029CE2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82282D22171133340029CE2A = {
+			isa = PBXGroup;
+			children = (
+				82282D34171133350029CE2A /* LearnItMobile */,
+				82282D2D171133350029CE2A /* Frameworks */,
+				82282D2C171133350029CE2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82282D2C171133350029CE2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82282D2B171133350029CE2A /* LearnItMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82282D2D171133350029CE2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82282D2E171133350029CE2A /* UIKit.framework */,
+				82282D30171133350029CE2A /* Foundation.framework */,
+				82282D32171133350029CE2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82282D34171133350029CE2A /* LearnItMobile */ = {
+			isa = PBXGroup;
+			children = (
+				82D0BA491711627100A6353B /* Graphics */,
+				82D0BA33171153D700A6353B /* Etc */,
+				82D0BA32171153CE00A6353B /* Master */,
+				82D0BA34171153E200A6353B /* Detail */,
+				82282D35171133350029CE2A /* Supporting Files */,
+			);
+			path = LearnItMobile;
+			sourceTree = "<group>";
+		};
+		82282D35171133350029CE2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82282D36171133350029CE2A /* LearnItMobile-Info.plist */,
+				82282D37171133350029CE2A /* InfoPlist.strings */,
+				82282D3A171133350029CE2A /* main.m */,
+				82282D3C171133350029CE2A /* LearnItMobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82D0BA32171153CE00A6353B /* Master */ = {
+			isa = PBXGroup;
+			children = (
+				82282D46171133350029CE2A /* LIMasterViewController.h */,
+				82282D47171133350029CE2A /* LIMasterViewController.m */,
+				82282D4C171133350029CE2A /* LIMasterViewController.xib */,
+			);
+			name = Master;
+			sourceTree = "<group>";
+		};
+		82D0BA33171153D700A6353B /* Etc */ = {
+			isa = PBXGroup;
+			children = (
+				82D0BA1A1711483500A6353B /* DZNumberpadDoneHelper.h */,
+				82D0BA1B1711483500A6353B /* DZNumberpadDoneHelper.m */,
+				82282D57171135670029CE2A /* MYIntroductionPanel.h */,
+				82282D58171135670029CE2A /* MYIntroductionPanel.m */,
+				82282D59171135670029CE2A /* MYIntroductionView.h */,
+				82282D5A171135670029CE2A /* MYIntroductionView.m */,
+				82282D3D171133350029CE2A /* LIAppDelegate.h */,
+				82282D3E171133350029CE2A /* LIAppDelegate.m */,
+			);
+			name = Etc;
+			sourceTree = "<group>";
+		};
+		82D0BA34171153E200A6353B /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				82D0BA35171153E800A6353B /* Sprint */,
+				82D0BA36171153F900A6353B /* Quiz */,
+				82282D49171133350029CE2A /* LIDetailViewController.h */,
+				82282D4A171133350029CE2A /* LIDetailViewController.m */,
+				82282D4F171133350029CE2A /* LIDetailViewController.xib */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		82D0BA35171153E800A6353B /* Sprint */ = {
+			isa = PBXGroup;
+			children = (
+				82D0BA2117114B4400A6353B /* hai.png */,
+				82D0BA2217114B4400A6353B /* iie.png */,
+				82D0BA261711510500A6353B /* pw_maze_white.png */,
+				82D0BA111711458900A6353B /* LISprintViewController.h */,
+				82D0BA121711458900A6353B /* LISprintViewController.m */,
+				82D0BA131711458900A6353B /* LISprintViewController.xib */,
+			);
+			name = Sprint;
+			sourceTree = "<group>";
+		};
+		82D0BA36171153F900A6353B /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				82D0BA381711563400A6353B /* escheresque_ste.png */,
+				82D0BA29171152C400A6353B /* LIQuizViewController.h */,
+				82D0BA2A171152C400A6353B /* LIQuizViewController.m */,
+				82D0BA2B171152C400A6353B /* LIQuizViewController.xib */,
+			);
+			name = Quiz;
+			sourceTree = "<group>";
+		};
+		82D0BA491711627100A6353B /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				82D0BA471711624200A6353B /* Default.png */,
+				82D0BA451711624000A6353B /* Default-568h@2x.png */,
+				82D0BA431711623E00A6353B /* Default@2x.png */,
+				82D0BA0417113CE600A6353B /* Icon.png */,
+				82D0BA0217113CE500A6353B /* Icon@2x.png */,
+				82D0BA161711482B00A6353B /* doneButtonHighlighted.png */,
+				82D0BA171711482B00A6353B /* doneButtonNormal.png */,
+				82D0BA0017113CD600A6353B /* Intro-Icon.png */,
+				82D0BA0617113D9800A6353B /* book-glyph.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82282D2A171133350029CE2A /* LearnItMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82282D54171133350029CE2A /* Build configuration list for PBXNativeTarget "LearnItMobile" */;
+			buildPhases = (
+				82282D27171133350029CE2A /* Sources */,
+				82282D28171133350029CE2A /* Frameworks */,
+				82282D29171133350029CE2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnItMobile;
+			productName = LearnItMobile;
+			productReference = 82282D2B171133350029CE2A /* LearnItMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82282D23171133340029CE2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LI;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Vladislav Korotnev";
+			};
+			buildConfigurationList = 82282D26171133340029CE2A /* Build configuration list for PBXProject "LearnItMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82282D22171133340029CE2A;
+			productRefGroup = 82282D2C171133350029CE2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82282D2A171133350029CE2A /* LearnItMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82282D29171133350029CE2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82282D39171133350029CE2A /* InfoPlist.strings in Resources */,
+				82282D4E171133350029CE2A /* LIMasterViewController.xib in Resources */,
+				82282D51171133350029CE2A /* LIDetailViewController.xib in Resources */,
+				82D0BA0117113CD600A6353B /* Intro-Icon.png in Resources */,
+				82D0BA0317113CE500A6353B /* Icon@2x.png in Resources */,
+				82D0BA0517113CE600A6353B /* Icon.png in Resources */,
+				82D0BA0717113D9800A6353B /* book-glyph.png in Resources */,
+				82D0BA151711458900A6353B /* LISprintViewController.xib in Resources */,
+				82D0BA181711482B00A6353B /* doneButtonHighlighted.png in Resources */,
+				82D0BA191711482B00A6353B /* doneButtonNormal.png in Resources */,
+				82D0BA2317114B4400A6353B /* hai.png in Resources */,
+				82D0BA2417114B4400A6353B /* iie.png in Resources */,
+				82D0BA281711510500A6353B /* pw_maze_white.png in Resources */,
+				82D0BA2D171152C400A6353B /* LIQuizViewController.xib in Resources */,
+				82D0BA391711563400A6353B /* escheresque_ste.png in Resources */,
+				82D0BA441711623E00A6353B /* Default@2x.png in Resources */,
+				82D0BA461711624000A6353B /* Default-568h@2x.png in Resources */,
+				82D0BA481711624200A6353B /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82282D27171133350029CE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82282D3B171133350029CE2A /* main.m in Sources */,
+				82282D3F171133350029CE2A /* LIAppDelegate.m in Sources */,
+				82282D48171133350029CE2A /* LIMasterViewController.m in Sources */,
+				82282D4B171133350029CE2A /* LIDetailViewController.m in Sources */,
+				82282D5B171135670029CE2A /* MYIntroductionPanel.m in Sources */,
+				82282D5C171135670029CE2A /* MYIntroductionView.m in Sources */,
+				82D0BA141711458900A6353B /* LISprintViewController.m in Sources */,
+				82D0BA1C1711483500A6353B /* DZNumberpadDoneHelper.m in Sources */,
+				82D0BA2C171152C400A6353B /* LIQuizViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82282D37171133350029CE2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82282D38171133350029CE2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82282D4C171133350029CE2A /* LIMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82282D4D171133350029CE2A /* en */,
+			);
+			name = LIMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		82282D4F171133350029CE2A /* LIDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82282D50171133350029CE2A /* en */,
+			);
+			name = LIDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82282D52171133350029CE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82282D53171133350029CE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82282D55171133350029CE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Никита Фофанов (8FGS4XKEYZ)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnItMobile/LearnItMobile-Prefix.pch";
+				INFOPLIST_FILE = "LearnItMobile/LearnItMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C41966A0-00C3-4CE5-AD28-BD9A8396F6D2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82282D56171133350029CE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Никита Фофанов (8FGS4XKEYZ)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnItMobile/LearnItMobile-Prefix.pch";
+				INFOPLIST_FILE = "LearnItMobile/LearnItMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C41966A0-00C3-4CE5-AD28-BD9A8396F6D2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82282D26171133340029CE2A /* Build configuration list for PBXProject "LearnItMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82282D52171133350029CE2A /* Debug */,
+				82282D53171133350029CE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82282D54171133350029CE2A /* Build configuration list for PBXNativeTarget "LearnItMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82282D55171133350029CE2A /* Debug */,
+				82282D56171133350029CE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82282D23171133340029CE2A /* Project object */;
+}
